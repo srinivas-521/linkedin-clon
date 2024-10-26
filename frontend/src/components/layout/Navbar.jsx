@@ -44,6 +44,9 @@ const Navbar=()=>{
 					<div className='flex items-center space-x-4'>
 						<Link to='/'>
 							<img className='h-8 rounded' src='/small-logo.png' alt='LinkedIn' />
+							<span className='text-gray-500 font-semibold text-sm italic border-l-2 pl-2 border-gray-300'>
+                              by Srinivas
+                             </span>
 						</Link>
 					</div>
 					<div className='flex items-center gap-2 md:gap-6'>
