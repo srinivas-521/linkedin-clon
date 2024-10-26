@@ -49,7 +49,7 @@ const Navbar=()=>{
                              </span>
 						</Link>
 					</div>
-					<div className='flex items-center gap-2 md:gap-6'>
+					<div className='flex items-center gap-4 md:gap-6 flex-wrap'>
 						{authUser ? (
 							<>
 								<Link to={"/"} className='text-neutral flex flex-col items-center'>
